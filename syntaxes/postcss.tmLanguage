@@ -77,6 +77,22 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>@custom-media</string>
+			<key>end</key>
+			<string>(?=;)</string>
+			<key>name</key>
+			<string>support.custom-media.name.postcss.library</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.at-rule.css.postcss</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>@include</string>
 			<key>end</key>
 			<string>(?=\n|\(|{|;)</string>
